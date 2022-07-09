@@ -1,0 +1,6 @@
+{
+    "markdown.marp.themes": [
+        "./theme/sloth.css"
+    ],
+    "markdown.marp.outlineExtension": false
+}
