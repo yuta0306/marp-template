@@ -26,17 +26,28 @@ section::after {
 section.reference {
     counter-reset: count 0;
 }
-section.reference::before {
-    content: attr(data-marpit-fragments);
-}
+
 section.reference ul {
     padding-left: 0;
 }
+
 section.reference li {
     list-style-type: none;
 }
-section.reference li::before {
-    content: "[" attr(data-marpit-fragment) "] ";
+
+section .reference-item::before {
+    content: "["attr(data-ref-number) "] ";
+}
+
+section span.reference-item--index-only {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+section span.reference-item--index-only::after {
+    font-size: 18px;
+    content: "["attr(data-ref-number) "] ";
 }
 
 /* title */
@@ -53,4 +64,3 @@ section.title h1 {
 section.title strong {
     font-size: 42px;
 }
-
