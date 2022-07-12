@@ -4,10 +4,39 @@
 
 /* common */
 section {
-    font-family: "Arial", "Hiragino Maru Gothic ProN";
-    font-size: 32px;
+    font-family: "Arial";
+    font-size: 36px;
+    font-weight: 300;
     padding: 40px;
     justify-content: left;
+    color: #444;
+}
+
+section h1 {
+    font-size: 56px;
+    padding: 0;
+    border-bottom: 1px solid #333;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+section h2 {
+    font-size: 56px;
+    padding: 0;
+    border-bottom: 1px solid #333;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+section h3 {
+    font-size: 56px;
+    padding: 0;
+    border-bottom: 1px solid #333;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 24px;
 }
 
 /* paginate */
@@ -15,23 +44,17 @@ section::after {
     margin: 0;
     bottom: 0;
     right: 12px;
-    padding: 8px 16px 2px 16px;
-    color: #ccc;
-    font-weight: 700;
-    font-size: 32px;
-    background: rgb(10, 10, 110);
+    color: #aaa;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 /* reference */
-section.reference {
-    counter-reset: count 0;
-}
-
-section.reference ul {
+section.references ul {
     padding-left: 0;
 }
 
-section.reference li {
+section.references li {
     list-style-type: none;
 }
 
@@ -57,10 +80,13 @@ section.title {
 }
 
 section.title h1 {
-    color: rgb(10, 10, 90);
+    color: rgb(10, 10, 120);
     font-size: 72px;
+    font-weight: 500;
+    border-bottom: none;
 }
 
 section.title strong {
     font-size: 42px;
+    font-weight: 500;
 }
