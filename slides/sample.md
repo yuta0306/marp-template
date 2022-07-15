@@ -16,6 +16,14 @@ paginate: true
 
 # Section 1
 
+---
+
+<!-- _class: headline -->
+
+# Section Headline
+
+---
+
 ## Sub Section
 
 ## Subsub Section

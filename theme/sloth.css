@@ -90,3 +90,22 @@ section.title strong {
     font-size: 42px;
     font-weight: 500;
 }
+
+/* section headline */
+section.headline {
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+section.headline h1 {
+    color: rgb(10, 10, 120);
+    font-size: 72px;
+    font-weight: 500;
+    border-bottom: none;
+}
+
+section.headline strong {
+    font-size: 42px;
+    font-weight: 500;
+}
