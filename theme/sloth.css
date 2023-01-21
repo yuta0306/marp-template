@@ -59,7 +59,7 @@ section.references li {
 }
 
 section .reference-item::before {
-    content: "["attr(data-ref-number) "] ";
+    content: "[" attr(data-ref-number) "] ";
 }
 
 section span.reference-item--index-only {
@@ -70,7 +70,7 @@ section span.reference-item--index-only {
 
 section span.reference-item--index-only::after {
     font-size: 18px;
-    content: "["attr(data-ref-number) "] ";
+    content: "[" attr(data-ref-number) "] ";
 }
 
 /* title */
@@ -108,4 +108,21 @@ section.headline h1 {
 section.headline strong {
     font-size: 42px;
     font-weight: 500;
+}
+
+table>thead {
+    border-top: 3px #333 solid;
+    border-bottom: 1.5px #333 solid;
+}
+
+table>tbody {
+    border-bottom: 3px #333 solid;
+}
+
+table td {
+    border: none;
+}
+
+table th {
+    border: none;
 }

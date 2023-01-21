@@ -31,6 +31,15 @@ paginate: true
 - bullted list
 
 ---
+
+# Table
+
+| Name | Acc  | Rec  |
+| ---- | ---- | ---- |
+| BERT | 0.90 | 0.96 |
+
+---
+
 <!-- class: reference -->
 
 # References
