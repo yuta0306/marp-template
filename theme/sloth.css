@@ -126,3 +126,8 @@ table td {
 table th {
     border: none;
 }
+
+table tr:nth-child(n) {
+    background-color: white;
+    border: none;
+}

@@ -37,6 +37,8 @@ paginate: true
 | Name | Acc  | Rec  |
 | ---- | ---- | ---- |
 | BERT | 0.90 | 0.96 |
+| BERT | 0.90 | 0.96 |
+| BERT | 0.90 | 0.96 |
 
 ---
 
